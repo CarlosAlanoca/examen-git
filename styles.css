@@ -1,0 +1,44 @@
+/* Reset básico para centrar todo */
+body {
+    background-color: #121212; /* Fondo oscuro */
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilo de la tarjeta (el componente) */
+.card {
+    background-color: #1e1e1e; /* Color de fondo del componente */
+    padding: 24px;
+    border-radius: 12px;
+    width: 300px;
+    text-align: left;
+    margin-bottom: 20px;
+    border: 1px solid #333;
+}
+
+/* Estilo para el número y texto */
+h2 { margin: 0; font-size: 32px; }
+p { margin: 5px 0; color: #aaa; }
+span { color: #4caf50; font-size: 14px; }
+
+/* Estilo de los botones */
+.buttons { display: flex; flex-direction: column; gap: 10px; width: 300px; }
+
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Botón azul */
+button:first-child { background-color: #007bff; color: white; }
+/* Botón blanco */
+button:last-child { background-color: #ffffff; color: black; }
